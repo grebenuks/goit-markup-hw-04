@@ -86,17 +86,38 @@ a {
 }
 
 /* Hero */
-.hero {
+.section.hero {
   text-align: center;
+  min-height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary-background-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../img/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.container.hero {
+  text-align: center;
+  width: 700px;
 }
 
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  width: 696px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -299,9 +320,6 @@ address {
 }
 
 /* Геометрия */
-header {
-  border-bottom: 1px solid #ececec;
-}
 
 .section {
   padding-top: 94px;
