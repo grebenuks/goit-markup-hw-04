@@ -517,9 +517,6 @@ header {
   margin-bottom: 30px;
 }
 
-.projects .item + .item {
-}
-
 .projects .item:nth-child(3n) {
   margin-right: 0;
 }
