@@ -81,6 +81,31 @@ a {
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
 }
+
+/* .link.mailto::before {
+  display: inline-block;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  background-image: url(../img/email.svg);
+}
+
+.link.tel::before {
+  display: inline-block;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  background-image: url(../img/phone.svg);
+} */
+
 .link.current {
   color: var(--accent-color);
 }
@@ -92,7 +117,7 @@ a {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--secondary-background-color);
+  background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
@@ -107,7 +132,7 @@ a {
 
 .container.hero {
   text-align: center;
-  width: 700px;
+  width: 696px;
 }
 
 .hero-title {
@@ -117,7 +142,6 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  width: 696px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -424,7 +448,7 @@ address {
   margin-left: auto;
 }
 .contact-nav .item + .item {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .header-container {
