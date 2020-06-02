@@ -532,6 +532,7 @@ address {
     0px 1px 3px rgba(0, 0, 0, 0.12); */
 }
 
+/* Клиенты */
 .clients {
   display: flex;
   justify-content: center;
@@ -547,8 +548,6 @@ address {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
-  /* box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12); */
   border-radius: 4px;
 }
 
@@ -635,9 +634,8 @@ address {
 .socialmedia {
   display: flex;
   justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--social-media-link-color);
 }
 
@@ -646,13 +644,16 @@ address {
 }
 
 .social-link-li {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .social-link-li:hover,
