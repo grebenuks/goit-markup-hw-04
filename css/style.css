@@ -87,6 +87,12 @@ img {
   letter-spacing: 0.02em;
 }
 
+/* .svg-item-email {
+  width: 15px;
+  height: 15px;
+  fill: var(--primary-text-color);
+} */
+
 /* .link.mailto::before {
   display: inline-block;
   content: "";
@@ -194,7 +200,6 @@ img {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
-  text-align: center;
 }
 
 .button-portfolio:hover,
@@ -451,7 +456,10 @@ address {
 .contact-nav {
   display: flex;
   margin-left: auto;
+  padding: 0;
+  list-style: none;
 }
+
 .contact-nav .item + .item {
   margin-left: 50px;
 }
