@@ -16,6 +16,7 @@ html {
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-background-color: #f5f4fa;
+  --social-media-link-color: #afb1b8;
 }
 
 *,
@@ -633,13 +634,35 @@ address {
 /* Cоц сети */
 .socialmedia {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   padding-left: 0px;
+  color: var(--social-media-link-color);
 }
 
 .socialmedia .social-link-li + .social-link-li {
   margin-left: 10px;
+}
+
+.social-link-li {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-link-li:hover,
+.social-link-li:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.socialmedia-icon {
+  fill: currentColor;
 }
 
 .team-content-container {
