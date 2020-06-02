@@ -668,6 +668,17 @@ address {
   color: var(--primary-white-color);
 }
 
+.social-link-li.footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--primary-white-color);
+}
+
+.social-link-li.footer:hover,
+.social-link-li.footer:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
 .socialmedia-icon {
   fill: currentColor;
 }
