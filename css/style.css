@@ -87,6 +87,12 @@ img {
   letter-spacing: 0.02em;
 }
 
+.icon-email,
+.icon-phone {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 /* .svg-item-email {
   width: 15px;
   height: 15px;
@@ -458,6 +464,7 @@ address {
   margin-left: auto;
   padding: 0;
   list-style: none;
+  align-items: center;
 }
 
 .contact-nav .item + .item {
