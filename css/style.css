@@ -208,6 +208,7 @@ img {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
+  cursor: pointer;
 }
 
 .button-portfolio:hover,
@@ -393,14 +394,6 @@ address {
 }
 
 /* Геометрия для портфолио */
-
-.portfolio-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .portfolio-list {
   margin-bottom: 50px;
